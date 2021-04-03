@@ -5,7 +5,9 @@ import numpy as np
 import torch
 import torch.optim as optim
 import sys
+print(sys.path)
 sys.path.append('./auxiliary/')
+print(sys.path)
 from dataset import *
 from model import *
 from utils import *
